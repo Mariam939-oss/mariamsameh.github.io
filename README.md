@@ -33,6 +33,6 @@ This is my personal portfolio website where I showcase my **skills, projects, an
 
 ## 📬 Contact  
 - **Email:** mariamsameh2288@gmail.com  
-- **LinkedIn:** (Add your LinkedIn profile link here)  
-- **Upwork:** (Add your Upwork profile link here)  
+- **LinkedIn:** https://www.linkedin.com/in/mariam-sameh-82789830a  
+- **Upwork:** https://www.upwork.com/freelancers/~0192e5c752f2a44fd5?mp_source=share  
 
