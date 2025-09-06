@@ -5,7 +5,8 @@ This is my personal portfolio website where I showcase my **skills, projects, an
 ---
 
 ## 🚀 Live Demo  
-🔗 [Click here to view the website](https://379098-87a7912a2f5a47ec851d0ba98d6841f6-6-latest.app.mgx.dev)  
+🔗 [Click here to view the website](http://127.0.0.1:61063/index.html)
+
 
 ---
 
