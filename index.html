@@ -326,25 +326,61 @@
 			</div>
 		</section>
 
-		<section class="mb-16 w-full" id="contact">
-			<div class="card p-6 w-full max-w-4xl mx-auto" data-aos="fade-up">
-				<h2 class="text-3xl font-bold mb-6 gradient-text text-center">Contact Me</h2>
-				<form class="grid gap-4 max-w-xl mx-auto">
-					<input class="p-3 border rounded w-full focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Name" type="text"/>
-					<input class="p-3 border rounded w-full focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Email" type="email"/>
-					<textarea class="p-3 border rounded w-full h-32 focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Message"></textarea>
-					<button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-all w-full" type="submit">Send Message</button>
-				</form>
-			</div>
-		</section>
+		<section id="contact-sections" class="mb-16 px-4">
+  <h2 class="text-3xl font-bold mb-10 gradient-text text-center" data-aos="fade-up">
+    Get in Touch
+  </h2>
 
-		<section class="mb-16 text-center" data-aos="fade-up" id="cv-download">
-			<h2 class="text-3xl font-bold mb-6 gradient-text">My Resume</h2>
-			<a class="bg-purple-600 text-white px-6 py-2 rounded-lg shadow hover:bg-purple-700 transition-all mt-6 inline-block" href="https://flowcv.com/resume/w167j4apfl0t" target="_blank" rel="noopener noreferrer">
-				<i class="fas fa-download mr-2"></i>Download My CV (PDF)
-			</a>
-		</section>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    
+    <!-- Contact Info -->
+    <div class="card p-8" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="text-2xl font-semibold mb-6 text-center text-gray-800 dark:text-gray-200">Contact Info</h3>
+      <div class="flex flex-col items-center gap-8 text-gray-700 dark:text-gray-300 text-center">
+        <a href="tel:+201097190704" class="hover:text-purple-600 transition text-lg font-semibold">
+          <div class="text-5xl mb-2">📞</div>
+          <div>+20 109 719 0704</div>
+        </a>
+        <a href="mailto:mariamsameh@example.com" class="hover:text-purple-600 transition text-lg font-semibold">
+          <div class="text-5xl mb-2">✉️</div>
+          <div>mariamsameh@example.com</div>
+        </a>
+        <a href="https://www.linkedin.com/in/mariam-sameh-82789830a" target="_blank" class="hover:text-purple-600 transition text-lg font-semibold">
+          <div class="text-5xl mb-2">🔗</div>
+          <div>LinkedIn Profile</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Form + CV -->
+    <div class="flex flex-col gap-8">
+      
+      <!-- Contact Form -->
+      <div class="card p-8 flex-1" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-2xl font-semibold mb-6 text-center text-gray-800 dark:text-gray-200">Contact Me</h3>
+        <form class="grid gap-4 max-w-xl mx-auto">
+          <input class="p-3 border rounded w-full focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Name" type="text"/>
+          <input class="p-3 border rounded w-full focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Email" type="email"/>
+          <textarea class="p-3 border rounded w-full h-32 focus:border-purple-600 focus:ring-purple-600 focus:outline-none" placeholder="Your Message"></textarea>
+          <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-all w-full" type="submit">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- CV Download -->
+      <div class="card p-6 text-center" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">My Resume</h3>
+        <a class="bg-purple-600 text-white px-6 py-2 rounded-lg shadow hover:bg-purple-700 transition-all inline-block" href="https://flowcv.com/resume/w167j4apfl0t" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-download mr-2"></i>Download My CV (PDF)
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
 	</main>
+
 
 	<div class="scroll-to-top" id="scrollToTop">
 		<i class="fas fa-arrow-up"></i>
